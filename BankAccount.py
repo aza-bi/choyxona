@@ -39,7 +39,7 @@ class BankAccount:
     @staticmethod
     def generate_acc_number(acc_nums):
         while True:
-            group1 = "9860" if str(random.randint(1, 2)) == 1 else "8600"
+            group1 = "9860" if random.randint(1, 2) == 1 else "8600"
             group2 = str(random.randint(1000, 9999))
             group3 = str(random.randint(1000, 9999))
             group4 = str(random.randint(1000, 9999))
