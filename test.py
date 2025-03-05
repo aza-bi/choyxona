@@ -33,6 +33,7 @@ except ValueError as e:
     print(e)
 
 user_acc2 = user.create_acc(2000000, acc_nums)
+acc_nums.append(user_acc2.account_number)
 print(user)
 
 user_acc2.deposit(500000)

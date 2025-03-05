@@ -26,7 +26,6 @@ class Users:
     def create_acc(self, amount:int, acc_nums):
         acc = BankAccount(self.id, amount, acc_nums)
         self.bank_accs.append(acc)
-        acc.__str__()
         return acc
 
 
